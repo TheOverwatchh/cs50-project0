@@ -1,0 +1,18 @@
+ 
+ @media(max-width:1050px) {
+     form input[type="text"] {
+         width:100%;
+         margin-left: 0;
+     }
+ 
+     div#links {
+         width: 30%;
+     }
+ }
+ 
+ @media(max-width: 700px) {
+ 
+     div#links {
+         width: 30%;
+     }
+    }

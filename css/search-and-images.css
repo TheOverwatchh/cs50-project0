@@ -1,0 +1,92 @@
+div#links {
+  float: right;
+  margin: 20px;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+div#links a {
+  color: black;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+div#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+}
+
+form {
+  width: 50%;
+}
+form input.finalinput {
+  border: none;
+  width: 20%;
+  height: 30px;
+  font-weight: 0;
+  opacity: 85%;
+  background: white;
+}
+form input.finalinput:hover {
+  border: 1px solid #cdcdcd;
+  cursor: pointer;
+}
+form input.input-text {
+  border: 1px solid #d8d8d8;
+  height: 5vh;
+  color: #8b8b8b;
+  font-size: 20px;
+  width: 80%;
+  margin-left: 5vw;
+  border-radius: 30px;
+  margin-bottom: 3vh;
+  padding: 10px;
+  padding-left: 20px;
+}
+form input.input-text:hover {
+  border: 2px solid #7b7b7b;
+}
+form input.input-text:focus {
+  outline: none;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
+  form input.finalinput {
+    width: 40%;
+    font-size: 1em;
+  }
+  form input.input-text {
+    width: 85%;
+    margin-left: 3vw;
+  }
+}
+@media (max-width: 1050px) {
+  form input.input-text {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  form {
+    width: 80%;
+  }
+  form input.finalinput {
+    width: 50%;
+    font-size: 0.9em;
+    margin-right: 40px;
+  }
+  form input.input-text {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=search-and-images.css.map */

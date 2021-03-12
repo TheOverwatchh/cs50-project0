@@ -1,0 +1,43 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+
+.center {
+    margin:auto;
+    padding: 10px;
+}
+
+.g {
+    color: blue;
+    opacity: 70%;
+}
+
+.oande {
+    color: red;
+    opacity: 70%;
+}
+
+.second-o {
+    opacity: 70%;
+    color:yellow;
+}
+.l {
+    opacity: 70%;
+    color: green;
+}
+div h1.logo {
+    margin-bottom: 6vh;
+    margin-top: 20vh;
+}
+
+.logo span{
+    font-size: 2em;
+}
+
+

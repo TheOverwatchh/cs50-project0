@@ -1,0 +1,53 @@
+div#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  background-color: #eeeeee;
+}
+div#links a {
+  color: black;
+  font-size: 0.8em;
+}
+
+#advanced-title {
+  color: #ff4242;
+  font-size: 1.3em;
+  border-bottom: 2px solid #eeeeee;
+  padding: 20px;
+  padding-left: 75px;
+  opacity: 0.85;
+}
+
+#form-container {
+  width: 50%;
+  margin-left: 75px;
+  margin-top: 50px;
+  position: relative;
+}
+#form-container span {
+  color: #2e2e2e;
+  font-size: 1em;
+}
+
+form {
+  width: 100%;
+  margin-top: 30px;
+}
+form .cell {
+  margin: 10px;
+}
+form label {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+}
+form input {
+  border: 1px solid #ccc;
+  border-top: 1px solid #aaaaaa;
+}
+form button {
+  position: absolute;
+  right: 10px;
+}
+
+/*# sourceMappingURL=advanced.css.map */

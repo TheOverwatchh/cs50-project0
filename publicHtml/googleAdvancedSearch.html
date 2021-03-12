@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="../css/Main.css">
+        <link rel="stylesheet" href="../css/advanced.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div id="links">
+
+            <h6 class="logo"><span class="g">G</span><span class="oande">o</span><span class="second-o">o</span><span class="g">g</span><span class="l">l</span><span class="oande">e</span></h6>
+            <a href="index.html">back to Google search</a>
+        </div>
+        <h2 id="advanced-title">Advanced Search</h2>
+        <div id="form-container">
+            <span class="mt-4">Find words with...</span>
+            <form action="https://google.com/search">
+               <div class="cell row"><label class="col-md-4" for="all-word">all these words:</label>            <input class="col-md-8" id="all-word" name="as_q"></div>
+               <div class="cell row"><label class="col-md-4" for="exact-word">this exact word or phrase:</label><input class="col-md-8" id="exact-word" name="as_epq"></div>
+               <div class="cell row"><label class="col-md-4" for="any-word">any of these words:</label>         <input class="col-md-8" id="any-word" name="as_oq"></div>
+               <div class="cell row"><label class="col-md-4" for="none-word">none of these words:</label>       <input class="col-md-8" id="none-word" name="as_eq"></div>
+               <button class="btn btn-primary" type="submit">Advanced search</button>
+            </form>
+        </div>
+    </body>
+</html>

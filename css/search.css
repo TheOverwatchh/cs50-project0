@@ -1,0 +1,24 @@
+
+@media (max-width: 1200px) { 
+    div#links  {
+        width: 25%;
+    }
+ }
+ 
+ @media(max-width:1050px) {
+     div#links {
+         width: 35%;
+     }
+ }
+ 
+ @media (max-width: 950px) {
+     div#links {
+         width: 38%
+     }
+ }
+ 
+ @media(max-width: 700px) {
+     div#links {
+         width: 55%;
+     }
+ }
